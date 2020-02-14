@@ -12,5 +12,5 @@ LABEL "com.github.actions.description"="Serverless framework"
 LABEL "com.github.actions.icon"="zap"
 LABEL "com.github.actions.color"="yellow"
 
-RUN npm i -g serverless@1.60.5
+RUN npm i -g serverless@1.63.0
 ENTRYPOINT ["serverless"]
